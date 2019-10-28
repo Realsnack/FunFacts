@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        funFactLabel.text = factProvider.facts[0]
+        funFactLabel.text = factProvider.randomFact()
         
     }
     
@@ -25,7 +25,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFact() {
-        funFactLabel.text = factProvider.facts[1]
+        //funFactLabel.text = factProvider.facts[Int.random(in: 0 ... 10)]
+        funFactLabel.text = factProvider.randomFact()
     }
     
 }
