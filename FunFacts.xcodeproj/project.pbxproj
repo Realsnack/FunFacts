@@ -12,6 +12,7 @@
 		5A2F27332366445400795FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F27312366445400795FDF /* Main.storyboard */; };
 		5A2F27352366445500795FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F27342366445500795FDF /* Assets.xcassets */; };
 		5A2F27382366445500795FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F27362366445500795FDF /* LaunchScreen.storyboard */; };
+		5A9031BD2368CE1300FB54C0 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9031BC2368CE1300FB54C0 /* BackgroundColorProvider.swift */; };
 		5AD73B012367719D008A4496 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD73B002367719D008A4496 /* FactProvider.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		5A2F27342366445500795FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2F27372366445500795FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2F27392366445500795FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9031BC2368CE1300FB54C0 /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 		5AD73B002367719D008A4496 /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				5A2F27362366445500795FDF /* LaunchScreen.storyboard */,
 				5A2F27392366445500795FDF /* Info.plist */,
 				5AD73B002367719D008A4496 /* FactProvider.swift */,
+				5A9031BC2368CE1300FB54C0 /* BackgroundColorProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				5A2F27302366445400795FDF /* ViewController.swift in Sources */,
 				5A2F272E2366445400795FDF /* AppDelegate.swift in Sources */,
+				5A9031BD2368CE1300FB54C0 /* BackgroundColorProvider.swift in Sources */,
 				5AD73B012367719D008A4496 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
